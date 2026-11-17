@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "alvyn.mercurio",
+  "name": "Mercurio: AppImage Installer",
+  "version": "1.0.0",
+  "author": "Alvyn & Dusk Bot",
+  "license": "MIT",
+  "description": "AppImage installer for Omarchy Linux with theme-reactive planet icon, automatic high-res icon extraction, and instant menu integration.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Mercurio",
+    "description": "One-click AppImage installer and desktop integrator.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "installDirectory": "~/.local/share/appimages"
+    },
+    "schema": [
+      {
+        "key": "installDirectory",
+        "type": "path",
+        "label": "Installation directory",
+        "description": "Directory where installed AppImage executables are stored.",
+        "defaultValue": "~/.local/share/appimages"
+      }
+    ]
+  }
+}
