@@ -1,4 +1,4 @@
-# 🪐 Mercury
+#  Mercury
 
 > **One-click AppImage installer & desktop integrator for Omarchy Linux.**
 
@@ -6,7 +6,7 @@ Mercury is a native Omarchy Linux plugin that lives in your top bar as a theme-r
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Theme-Reactive Planet Icon**: Renders an animated Mercury planet that dynamically adapts to your active Omarchy theme colors.
 - **Drag & Drop or File Picker**: Easily select any AppImage via file dialog (`zenity`) or drag it onto the card.
@@ -16,7 +16,7 @@ Mercury is a native Omarchy Linux plugin that lives in your top bar as a theme-r
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Option 1: Native Omarchy Command (Recommended)
 
@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/alvyn16/mercury/main/install.sh | b
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 1. Click the **Planet icon** on your top bar.
 2. Click **Select .AppImage** (or drag and drop your file).
@@ -45,6 +45,6 @@ curl -fsSL https://raw.githubusercontent.com/alvyn16/mercury/main/install.sh | b
 
 ---
 
-## 📄 License
+##  License
 
 MIT © [Alvyn](https://github.com/alvyn16)
