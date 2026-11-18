@@ -242,7 +242,7 @@ Item {
         spacing: 0
 
         Text {
-          text: "Mercurio"
+          text: "Mercury"
           color: root.foreground
           font.family: root.fontFamily
           font.pixelSize: Style.font.bodyLarge || Style.space(15)

@@ -27,7 +27,7 @@ if ! echo "$FILE_TYPE" | grep -qiE 'ELF|AppImage'; then
   die "Selected file is not an ELF or AppImage executable ($FILE_TYPE)."
 fi
 
-TMP_DIR=$(mktemp -d /tmp/mercurio.XXXXXX)
+TMP_DIR=$(mktemp -d /tmp/mercury.XXXXXX)
 cleanup() {
   rm -rf "$TMP_DIR"
 }
@@ -167,7 +167,7 @@ Categories=${APP_CATEGORIES}
 Terminal=false
 StartupWMClass=${APP_WMCLASS}
 X-AppImage-Original-Exec="${DEST_BIN}"
-X-AppImage-Created-By=Mercurio
+X-AppImage-Created-By=Mercury
 DESKTOP_ENTRY_EOF
 
 if [[ -n "$APP_MIMETYPE" ]]; then

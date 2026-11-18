@@ -1,8 +1,8 @@
-# 🪐 Mercurio
+# 🪐 Mercury
 
 > **One-click AppImage installer & desktop integrator for Omarchy Linux.**
 
-Mercurio is a native Omarchy Linux plugin that lives in your top bar as a theme-reactive planet icon. Click it or drop any `.AppImage` file, and Mercurio automatically validates the binary, extracts its original high-resolution vector or PNG icons, creates an XDG desktop entry, and integrates the app seamlessly into your Omarchy menu and dock.
+Mercury is a native Omarchy Linux plugin that lives in your top bar as a theme-reactive planet icon. Click it or drop any `.AppImage` file, and Mercury automatically validates the binary, extracts its original high-resolution vector or PNG icons, creates an XDG desktop entry, and integrates the app seamlessly into your Omarchy menu and dock.
 
 ---
 
@@ -23,7 +23,7 @@ Mercurio is a native Omarchy Linux plugin that lives in your top bar as a theme-
 Run this in your terminal:
 
 ```bash
-omarchy plugin install https://github.com/alvyn16/mercurio --enable
+omarchy plugin install https://github.com/alvyn16/mercury --enable
 ```
 
 Omarchy will prompt you to choose where you want the planet icon on your top bar (left, center, tray, or right).
@@ -31,7 +31,7 @@ Omarchy will prompt you to choose where you want the planet icon on your top bar
 ### Option 2: One-Line Curl
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alvyn16/mercurio/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alvyn16/mercury/main/install.sh | bash
 ```
 
 ---
@@ -40,7 +40,7 @@ curl -fsSL https://raw.githubusercontent.com/alvyn16/mercurio/main/install.sh | 
 
 1. Click the **Planet icon** on your top bar.
 2. Click **Select .AppImage** (or drag and drop your file).
-3. Mercurio installs the executable into `~/.local/share/appimages/` and registers the app in your Omarchy menu with its original icon.
+3. Mercury installs the executable into `~/.local/share/appimages/` and registers the app in your Omarchy menu with its original icon.
 4. Open your Omarchy launcher (`Super` / Menu) to find your newly installed app!
 
 ---

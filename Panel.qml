@@ -9,8 +9,8 @@ import qs.Ui
 
 Panel {
   id: root
-  moduleName: "alvyn.mercurio"
-  ipcTarget: "mercurio"
+  moduleName: "alvyn.mercury"
+  ipcTarget: "mercury"
   manageIpc: true
 
   implicitWidth: button.implicitWidth
@@ -28,7 +28,7 @@ Panel {
     id: button
     anchors.fill: parent
     bar: root.bar
-    tooltipText: "Mercurio: AppImage Installer"
+    tooltipText: "Mercury: AppImage Installer"
     iconComponent: Component {
       Item {
         PlanetIcon {

@@ -20,7 +20,7 @@ Item {
   property var installedApp: null
 
   readonly property string scriptPath: {
-    var u = Qt.resolvedUrl("scripts/mercurio-install.sh").toString()
+    var u = Qt.resolvedUrl("scripts/mercury-install.sh").toString()
     if (u.indexOf("file://") === 0) return decodeURIComponent(u.substring(7))
     return u
   }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "alvyn.mercurio",
-  "name": "Mercurio: AppImage Installer",
+  "id": "alvyn.mercury",
+  "name": "Mercury: AppImage Installer",
   "version": "1.0.0",
   "author": "Alvyn & Dusk Bot",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "barWidget": "Panel.qml"
   },
   "barWidget": {
-    "displayName": "Mercurio",
+    "displayName": "Mercury",
     "description": "One-click AppImage installer and desktop integrator.",
     "category": "System",
     "allowMultiple": false,
